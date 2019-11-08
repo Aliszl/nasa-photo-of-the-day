@@ -1,4 +1,6 @@
 .App {
+  height:100%;
+  border: blue 1px solid;
   text-align: center;
 }
 
@@ -7,6 +9,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+header{
+  border: 1px purple solid;
+  color:rgb(186, 130, 197);
+  background-image: url("./img/starsImg.jpeg");
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -19,10 +28,15 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
-
+footer{
+  border: 1px purple solid;
+  background-image: url("./img/starsImg.jpeg");
+  color:rgb(186, 130, 197);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+
